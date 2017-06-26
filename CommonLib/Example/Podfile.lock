@@ -1,0 +1,16 @@
+PODS:
+  - CommonLib (0.2.0)
+
+DEPENDENCIES:
+  - CommonLib (from `../`)
+
+EXTERNAL SOURCES:
+  CommonLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonLib: 8b0ae0b28c4866c19f72ecfc05c5f7450dc4b263
+
+PODFILE CHECKSUM: 8bff2089cab09a753b3aee87089d6d0009419c4c
+
+COCOAPODS: 1.3.0.beta.1

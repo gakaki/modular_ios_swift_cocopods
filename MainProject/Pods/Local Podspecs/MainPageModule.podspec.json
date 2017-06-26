@@ -1,0 +1,21 @@
+{
+  "name": "MainPageModule",
+  "version": "1.0.0",
+  "summary": "Super sweet syntactic sugar for Swift initializers.",
+  "homepage": "https://github.com/devxoul/Then",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DianQK": "devxoul@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DianQK/DevOnPods.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "MainPageModule/*.swift",
+  "platforms": {
+    "ios": "9.0"
+  }
+}

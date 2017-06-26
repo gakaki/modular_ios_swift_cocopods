@@ -1,0 +1,32 @@
+{
+  "name": "CommonLib",
+  "version": "0.2.0",
+  "summary": "CommonLib description",
+  "description": "CommonLib long description",
+  "homepage": "https://github.com/gakaki/CommonLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gakaki": "gakaki@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gakaki/CommonLib.git",
+    "branch": "master"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommonLib/Classes/**/*",
+  "vendored_frameworks": "vendor_frameworks/UMMobClick.framework",
+  "frameworks": "CoreTelephony",
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "requires_arc": false,
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/**\""
+  }
+}

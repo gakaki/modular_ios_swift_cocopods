@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'		#官方仓库地址
+source 'https://github.com/gakaki/gakakiPods.git'		#私有仓库地址
+
+use_frameworks!
+platform :ios, '9.0'
+
+# Pod::Installer::Xcode::TargetValidator.module_eval do
+#   def verify_no_static_framework_transitive_dependencies
+#     puts '-> cancel the verify static framework'
+#   end
+# end
+
+
+target 'ModuleMainPage_Example' do
+  pod 'ModuleMainPage', :path => '../'
+
+end
